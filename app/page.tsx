@@ -6,7 +6,7 @@ export default async function Home() {
   const allCars = await fetchCars();
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
   return (
-    <main className="">
+    <main className="overflow-hidden">
       <Hero />
       <div className="mt-12 padding-x padding-y max-width" id="discover">
         <div className="home__text-container">

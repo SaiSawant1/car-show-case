@@ -5,7 +5,7 @@ export async function fetchCars(){
 		'X-RapidAPI-Key': '2e25649266msh24d7974d5854e87p190ae5jsn4060b21626e6',
 		'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com'
 	}
-    const url = 'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?model=corolla&limit=16';
+    const url = 'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?model=lamborgini&limit=16';
 
     const response = await fetch(url, {
         method:'GET',
