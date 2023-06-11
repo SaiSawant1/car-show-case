@@ -36,3 +36,10 @@ export interface FilterProps {
   fuel:string,
   limit: string
 }
+export interface CustomFilterProps{
+  title:string;
+  options: {
+    title: string;
+    value: string;
+}[];
+}
