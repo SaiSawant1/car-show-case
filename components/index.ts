@@ -7,4 +7,5 @@ import CustomFilter from "./CustomFilter";
 import SearchManufacturer from "./SearchManufacturer";
 import CarCard   from "./CarCard";
 import CardDetails from "./CardDetails";
-export { CarCard,CardDetails,Hero,SearchBar, SearchManufacturer,CustomFilter,CustomButton,Navbar,Footer };
+import SearchButton from "./SearchButton";
+export { SearchButton,CarCard,CardDetails,Hero,SearchBar, SearchManufacturer,CustomFilter,CustomButton,Navbar,Footer };
