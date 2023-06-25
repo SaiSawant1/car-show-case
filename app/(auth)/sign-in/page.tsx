@@ -1,7 +1,7 @@
-'use client'
 import React from 'react'
 import {signIn} from "next-auth/react"
 import { getAuthSession } from '@/lib/authConfig'
+import Link from 'next/link'
 const page = async () => {
     const handleClick=()=>{
         signIn("google")
@@ -10,7 +10,7 @@ const page = async () => {
     console.log(session)
   return (
     <div className= "w-full pt-36">
-        <button onClick={handleClick}>Google</button>
+        <Link href='/api/auth/signin'>google</Link>
         
     </div>
     
